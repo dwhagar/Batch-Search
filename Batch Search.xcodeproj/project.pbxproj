@@ -18,6 +18,7 @@
 		F67D333C18D413B6003924C5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67D331B18D413B5003924C5 /* Cocoa.framework */; };
 		F67D334418D413B6003924C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F67D334218D413B6003924C5 /* InfoPlist.strings */; };
 		F67D334618D413B6003924C5 /* Batch_SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D334518D413B6003924C5 /* Batch_SearchTests.m */; };
+		F67D335018D416A0003924C5 /* mainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67D334F18D416A0003924C5 /* mainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		F67D334118D413B6003924C5 /* Batch SearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Batch SearchTests-Info.plist"; sourceTree = "<group>"; };
 		F67D334318D413B6003924C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F67D334518D413B6003924C5 /* Batch_SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Batch_SearchTests.m; sourceTree = "<group>"; };
+		F67D334F18D416A0003924C5 /* mainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mainWindow.xib; path = ../mainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		F67D332118D413B5003924C5 /* Batch Search */ = {
 			isa = PBXGroup;
 			children = (
+				F67D334F18D416A0003924C5 /* mainWindow.xib */,
 				F67D332D18D413B5003924C5 /* AppDelegate.h */,
 				F67D332E18D413B5003924C5 /* AppDelegate.m */,
 				F67D333018D413B5003924C5 /* MainMenu.xib */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F67D332618D413B5003924C5 /* InfoPlist.strings in Resources */,
+				F67D335018D416A0003924C5 /* mainWindow.xib in Resources */,
 				F67D333418D413B5003924C5 /* Images.xcassets in Resources */,
 				F67D332C18D413B5003924C5 /* Credits.rtf in Resources */,
 				F67D333218D413B5003924C5 /* MainMenu.xib in Resources */,
